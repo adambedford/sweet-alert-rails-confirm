@@ -1,18 +1,16 @@
-sweet-alert-rails-confirm
+sweet-alert-rails-confirm-bootstrap
 =========================
 
-[![Build Status](https://travis-ci.org/mois3x/sweet-alert-rails-confirm.svg?branch=master)](http://travis-ci.org/mois3x/sweet-alert-rails-confirm)
+A Rails confirm replacement with SweetAlert modified for compatibility with [bootstrap-sweetalert](https://lipis.github.io/bootstrap-sweetalert)
 
+depends on https://lipis.github.io/bootstrap-sweetalert/
 
-A Rails confirm replacement with SweetAlert
+Install Bootstrap Sweetalert via Bower:
 
-depends on https://github.com/t4t5/sweetalert
-
-So you need to Install:
-    gem 'sweet-alert'
-
-Or the latest with:
-    gem 'rails-assets-sweetalert' # Using https://rails-assets.org/ 
+    bower install bootstrap-sweetalert
+    
+Or via Rails-Assets:
+    gem 'rails-assets-bootstrap-sweetalert', source: 'https://rails-assets.org'
 
 ## Requirements
 Rails >= 3.1
@@ -21,21 +19,20 @@ Rails >= 3.1
 
 Add it to your Gemfile:
 ```ruby
-gem 'sweet-alert'
 gem 'sweet-alert-confirm'
 ```
 
 Add the following to application.js:
 
 ```javascript
-//= require sweet-alert
+//= require bootstrap-sweetalert
 //= require sweet-alert-confirm
 ```
-Add the following to application.css:
+Add the following to application.scss:
 
-```css
+```scss
 /*
- *= require sweet-alert
+@import "bootstrap-sweetalert";
  */
 ```
 
