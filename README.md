@@ -3,7 +3,7 @@ sweet-alert-rails-confirm-bootstrap
 
 A Rails confirm replacement with SweetAlert modified for compatibility with [bootstrap-sweetalert](https://lipis.github.io/bootstrap-sweetalert)
 
-depends on https://lipis.github.io/bootstrap-sweetalert/
+Depends on https://lipis.github.io/bootstrap-sweetalert/
 
 Install Bootstrap Sweetalert via Bower:
 ```
