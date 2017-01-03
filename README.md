@@ -6,11 +6,14 @@ A Rails confirm replacement with SweetAlert modified for compatibility with [boo
 depends on https://lipis.github.io/bootstrap-sweetalert/
 
 Install Bootstrap Sweetalert via Bower:
-
-    bower install bootstrap-sweetalert
+```
+bower install bootstrap-sweetalert
+```
     
 Or via Rails-Assets:
-    gem 'rails-assets-bootstrap-sweetalert', source: 'https://rails-assets.org'
+``` ruby
+gem 'rails-assets-bootstrap-sweetalert', source: 'https://rails-assets.org'
+```
 
 ## Requirements
 Rails >= 3.1
